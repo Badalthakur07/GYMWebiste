@@ -1,37 +1,34 @@
-
-//function change() {
-   // if(document.getElementById("ul-nav").style.visibility =="visible" ){
-    //    document.getElementById("ul-nav").style.visibility="hidden";
-    //} else{
-     //   document.getElementById("ul-nav").style.visibility="visible";
-    //}
-    //}
-
-      
-    
+let righticon = document.querySelector('#righticon');
+let lefticon = document.querySelector('#lefticon');
+let move = document.querySelector('.threeimg');
 
 
+righticon.addEventListener('click',()=>{
+    move.scrollLeft += 140;
+})
+
+lefticon.addEventListener('click',()=>{
+    move.scrollLeft -= 140;
+})
 
 
-     let icon  = document.querySelector('#righticon');
-     let left = document.querySelector('#lefticon');
-     let card = document.querySelector('.third-box');
+let rightarrow = document.querySelector('#rightarrow');
+let leftarrow = document.querySelector('#leftarrow');
+let fivebox = document.querySelector('.fivebox');
 
-    left.addEventListener('click', ()=>{
-      card.scrollLeft -= 140;
-    });
 
-    icon.addEventListener('click',()=>{
-      card.scrollLeft += 140;
-    })
+rightarrow.addEventListener('click',()=>{
+    fivebox.scrollLeft += 170;
+})
 
+leftarrow.addEventListener('click',()=>{
+    fivebox.scrollLeft -= 170;
+})
+
+let tog = document.querySelector('.toggle')
+  
+let menu = document.querySelector('#bar').addEventListener('click',()=>{
+    tog.classList.toggle('toggle')
+})
 
   
-   
-
-
-
-
-
-
-
