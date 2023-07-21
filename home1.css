@@ -377,9 +377,11 @@ flex-direction: column;
 }
 .signup{
   width: 80%;
+    margin: 0px 0px 0px 20px;
 }
 .login{
   width: 80%;
+    margin: 0px 0px 0px 10px;
 }
 button{
   display: block;
