@@ -41,29 +41,31 @@ section{
   .sec-firsthalf{
      margin-left: auto;
      margin-right:auto;
-     width: 300px;
+     width: 60%;
      position: relative;
-     top: 20%
+     top: 20%;
+     left: 10%;
   }
 
   input{
-    width: 220px;
-    padding: 5px;
+    width: 260px;
+    padding: 9px;
     border-color: rgb(199, 132, 199);
   }
   #sign,#login{
-    width: 233px;
-    padding: 9px;
+    width: 280px;
+    padding: 12px;
     margin-top: 10px;
     color: #ffffff;
     border: none;
+    display: block;
   }
   #login{
     background-color: #04C45C;
   }
   #sign{
     background-color: #2D3748;
-    padding: 6px;
+    padding: 12px;
    }
    .sec-icon{
     width: 15px;
@@ -104,6 +106,8 @@ section{
   margin-left: auto;
   margin-right: auto;
   background-color: #ffffff;
+  width: 90%;
+  left:-20%;
  }
  .second-half{
   height: 100vh;
@@ -115,4 +119,9 @@ section{
 }
 
 
+@media screen and (max-width:360px){
+  .sec-firsthalf{
+    width: 90%;
+  }
 
+}
